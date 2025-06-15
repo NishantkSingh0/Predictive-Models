@@ -31,3 +31,54 @@ Customer financial and loan data  📥  <a href="https://www.kaggle.com/datasets
 
 ### 🚀 Results
 Achieved strong classification performance of 80% on unseen test data with a well-generalized and compact model.
+
+<br><br>
+--- 
+<br><br>
+
+# ✈️ Airline Delay & Cancellation Prediction - Binary Classifier  
+A Sequential classification model trained on a large real-world airline dataset to predict whether a flight will be delayed by 15+ minutes or canceled.
+
+### 📊 Dataset  
+Historical flight data enriched with weather, airport, and carrier features.  
+<a href="[https://www.kaggle.com/datasets/omkar5/dataset-for-bank-loan-prediction](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)" target="_blank">2019 airline delays and cancellations</a>  
+🎯 Target: `DEP_DEL15` – Binary indicator for delay >15 minutes or cancellation.  
+
+### ⚙️ Workflow  
+- **EDA & Cleaning**: Handled missing values, outliers, anomalies  
+- **Preprocessing**:  
+  - Encoded categorical features  
+  - Applied feature scaling  
+  - Log-transformed skewed features  
+- **Custom Class Weights**: Balanced training for imbalanced label distribution  
+- **Model**:  
+  - Deep Neural Network with multiple Dense layers, Dropout, and BatchNormalization  
+  - Total parameters: ~35K  
+  - Loss: Binary cross-entropy  
+  - Optimizer: Adam  
+  - Metrics: Accuracy, Precision, Recall, AUC  
+
+### 🧠 Features Used  
+- `MONTH`: Month of flight  
+- `DAY_OF_WEEK`: Day of the week  
+- `DEP_TIME_BLK`: Departure time block (e.g., 0600–0659)  
+- `DISTANCE_GROUP`: Distance bucket of the flight  
+- `SEGMENT_NUMBER`: Flight segment order  
+- `CONCURRENT_FLIGHTS`: Concurrent departing flights in same time block  
+- `NUMBER_OF_SEATS`: Seats available on aircraft  
+- `CARRIER_NAME`: Airline carrier  
+- `AIRPORT_FLIGHTS_MONTH`: Avg. airport traffic  
+- `AIRLINE_FLIGHTS_MONTH`: Avg. flights operated by airline  
+- `AIRLINE_AIRPORT_FLIGHTS_MONTH`: Combined airport-airline traffic  
+- `PLANE_AGE`: Age of aircraft  
+- `LATITUDE`, `LONGITUDE`: Geolocation of airport  
+- `PRCP`, `SNOW`, `SNWD`, `TMAX`, `AWND`: Weather conditions (precipitation, snow, temp, wind)
+
+### 📁 Files  
+* <a href="https://github.com/NishantkSingh0/Predictive-Models/blob/main/Airline-Delays-Cancellation-Prediction.ipynb" target="_blank">LoanPrediction.ipynb</a> – Full pipeline 
+- <a href="https://www.kaggle.com/code/nishantsingh96/airline-delays-cancellation-prediction" target="_blank">Kaggle Notebook</a> - Full Explanation 
+
+### 🚀 Results  
+Achieved **~65% accuracy** on unseen test data using a custom-weighted loss function and tuned architecture.  
+The model shows strong generalization for real-world flight scheduling and operations forecasting.
+
