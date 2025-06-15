@@ -41,7 +41,7 @@ A Sequential classification model trained on a large real-world airline dataset 
 
 ### 📊 Dataset  
 Historical flight data enriched with weather, airport, and carrier features.  
-<a href="[https://www.kaggle.com/datasets/omkar5/dataset-for-bank-loan-prediction](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)" target="_blank">2019 airline delays and cancellations</a>  
+<a href="https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations" target="_blank">2019 airline delays and cancellations</a>  
 🎯 Target: `DEP_DEL15` – Binary indicator for delay >15 minutes or cancellation.  
 
 ### ⚙️ Workflow  
