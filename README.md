@@ -1,5 +1,5 @@
 # 🏦 Bank Loan Approval - Binary Classifier
-A Simple binary classification model trained on a large real-world bank loan dataset from Kaggle to predict loan approval.
+A Sequential classification model trained on a large real-world bank loan dataset from Kaggle to predict loan approval.
 
 ### 📊 Dataset
 Customer financial and loan data
@@ -12,5 +12,8 @@ Customer financial and loan data
 * **Training:** Binary cross-entropy + Adam + early stopping
 
 ### 📁 Files
-* LoanPrediction.ipynb – Full pipeline  
+* <a href="https://github.com/NishantkSingh0/Predictive-Models/blob/main/LoanPrediction.ipynb" target="_blank">LoanPrediction.ipynb</a> – Full pipeline
 * <a href="https://www.kaggle.com/code/nishantsingh96/loanprediction" target="_blank">Kaggle Notebook</a> - Full Explanation
+
+### 🚀 Results
+Achieved strong classification performance of 80% on unseen test data with a well-generalized and compact model.
