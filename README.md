@@ -2,8 +2,7 @@
 A Sequential classification model trained on a large real-world bank loan dataset from Kaggle to predict loan approval.
 
 ### 📊 Dataset
-Customer financial and loan data
-📥  <a href="https://www.kaggle.com/datasets/omkar5/dataset-for-bank-loan-prediction" target="_blank">Dataset for Bank Loan Prediction</a>
+Customer financial and loan data  📥  <a href="https://www.kaggle.com/datasets/omkar5/dataset-for-bank-loan-prediction" target="_blank">Dataset for Bank Loan Prediction</a>
 
 ### ⚙️ Workflow
 * **EDA & Cleaning:** Handled nulls, outliers, patterns
