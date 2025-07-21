@@ -121,3 +121,20 @@ Achieved strong regression performance on test data:
 - `R² Score`: ~0.82  
 Demonstrated good generalization and accurate predictions with well-preprocessed features and effective model choice.
 
+
+
+<br><br>
+--- 
+<br><br>
+
+
+
+# 🔐 Fraud Detection Using Machine Learning & Deep Learning
+`CreditCardFraudDetection.ipynb`   
+This project aims to detect fraudulent transactions using both Machine Learning (Random Forest) and Deep Learning (Neural Networks) approaches. The focus is on classifying transactions as fraudulent or genuine using six key financial features.
+
+* <a href="https://colab.research.google.com/drive/10sqLsQod9fuK50QfgCjCiT8TXyywity6?usp=sharing" target="_blank">live Colab workFlow</a> – Full pipeline 
+
+
+
+
